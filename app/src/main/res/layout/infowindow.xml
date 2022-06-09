@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#93CBD5"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pointname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="点位名称"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/addressinfo"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/ownerinfo"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/latlon"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经纬度"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/pointname"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ownerinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所属单位"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/pointcode"
+        app:layout_constraintTop_toBottomOf="@+id/latlon" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摄像头类型"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/latlon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pointcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="编号"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pointname" />
+</androidx.constraintlayout.widget.ConstraintLayout>

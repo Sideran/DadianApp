@@ -1,0 +1,104 @@
+
+    [
+        {
+            "pointCode":"123434",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "球形",
+            "pointName": "摄像头1",
+            "lat": "36.641311",
+            "lon": "116.982611",
+            "isMaker": "false"
+
+        },
+        {
+            "pointCode":"123435",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "枪型",
+            "pointName": "摄像头2",
+            "lat": "36.641111",
+            "lon": "116.966278",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"123436",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "球形",
+            "pointName": "摄像头3",
+            "lat": "36.641234",
+            "lon": "116.982723",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"123437",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "枪型",
+            "pointName": "摄像头4",
+            "lat": "36.879655",
+            "lon": "117.555555",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"123438",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "球形",
+            "pointName": "摄像头",
+            "lat": "37.235647",
+            "lon": "117.402949",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"123439",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "枪型",
+            "pointName": "摄像头",
+            "lat": "37.192834",
+            "lon": "117.111111",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"123467",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "球形",
+            "pointName": "摄像头",
+            "lat": "35.983746",
+            "lon": "116.908736",
+            "isMaker": "true"
+        },
+        {
+            "pointCode":"123456",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "枪型",
+            "pointName": "摄像头",
+            "lat": "36.073526",
+            "lon": "116.763728",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"123988",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "球形",
+            "pointName": "摄像头",
+            "lat": "36.391039",
+            "lon": "116.495020",
+            "isMaker": "false"
+        },
+        {
+            "pointCode":"093938",
+            "address":"山东省济南市xx路xx号附近",
+            "owner":"信息公司",
+            "pointType": "枪型",
+            "pointName": "摄像头",
+            "lat": "36.202020",
+            "lon": "117.222222",
+            "isMaker": "false"
+        }
+    ]

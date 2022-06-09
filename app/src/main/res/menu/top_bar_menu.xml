@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/companyIP"
+        android:title="172.30.97.1:8080" />
+    <item
+        android:id="@+id/homeIP"
+        android:title="192.168.31.165:8080" />
+    <item
+        android:id="@+id/YuxiaoIP"
+        android:title="system.sideran.top/prod-api" />
+    <item
+        android:id="@+id/kongIP"
+        android:title="kong" />
+</menu>

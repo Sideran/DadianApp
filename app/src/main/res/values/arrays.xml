@@ -1,0 +1,38 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>摄像头打点记录人员</item>
+        <item>摄像头检察人员</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string name="setting">设置</string>
+    <string-array name="testdata">
+        <item>所属站段</item>
+        <item>济南西机务段</item>
+        <item>济南西车辆段</item>
+    </string-array>
+    <string-array name="divice_type">
+        <item>未知</item>
+        <item>球形</item>
+        <item>枪型</item>
+    </string-array>
+    <string-array name="testdata2">
+        <item>摄像头类型</item>
+        <item>球形摄像头</item>
+        <item>枪型摄像头</item>
+    </string-array>
+    <string-array name="testdata3">
+        <item>不限厂商</item>
+        <item>设备厂商A</item>
+        <item>设备厂商B</item>
+    </string-array>
+    <string-array name="testdata4">
+        <item>不限功能类型</item>
+        <item>车辆卡口</item>
+        <item>人员卡口</item>
+    </string-array>
+</resources>

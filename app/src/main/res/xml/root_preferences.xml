@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="设置昵称"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="reply"
+            app:title="个人工作类型"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            app:key="cache"
+            app:title="清除缓存图片"
+            />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="测量设置">
+        <EditTextPreference
+            app:key="height"
+            app:title="设置身高(单位：厘米)"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="downloadMap"
+            app:title="自动离线下载地图" />
+
+        <SwitchPreferenceCompat
+            app:dependency="downloadMap"
+            app:key="attachment"
+            app:summaryOff="仅当设备连接至无线网络时离线下载地图"
+            app:summaryOn="设备连接网络自动下载地图"
+            app:title="4G/5G下载开关" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

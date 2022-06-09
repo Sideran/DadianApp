@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/bg_circle.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/side_nav_bar.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/video_dialog_progress_bg.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/video_seek_thumb.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/video_seek_thumb_normal.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/video_seek_thumb_pressed.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable-v24/video_volume_progress_bg.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/bg_searchview.xml" value="0.156" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/fail.xml" value="0.1135" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_assignment_ind_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2095" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.1135" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_note_add_24.xml" value="0.2095" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_notification_important_24.xml" value="0.2095" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_photo_size_select_actual_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.1135" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_thumb_down_alt_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_thumb_up_alt_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_unfold_less_24.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_unfold_more_24.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_download.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/ic_search.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/line.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/scan.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/drawable/success.xml" value="0.136" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13052208835341367" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout-w936dp/activity_measure.xml" value="0.2981651376146789" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.15027322404371585" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_login.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_main.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_main2.xml" value="0.2364179037174423" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_measure.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_pager.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_pointinfo.xml" value="0.37072243346007605" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_pointinfo2.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_scrolling.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/activity_tab.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/collection_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/content_scrolling.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/else_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/footer_item.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_activity_tab.xml" value="0.15476699444206926" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.2364179037174423" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_dashboard1.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_dashboard2.xml" value="0.17910447251321387" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_home2.xml" value="0.21785714285714286" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_notifications.xml" value="0.3475609756097561" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_record.xml" value="0.2364179037174423" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/fragment_search.xml" value="0.18055555555555555" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/infoinner.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/infowindow.xml" value="0.64477610104757" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/item.xml" value="0.18614130434782608" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/list_item.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/nav_header_main.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/notification_inner.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/notification_item.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/pagelist_item.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/progress_item.xml" value="0.1541251133272892" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/record_fragment.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/repo_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/scroll_guo.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/scroll_manage.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/scroll_pos.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/settings_activity.xml" value="0.18614130434782608" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/spinner_item.xml" value="0.18055555555555555" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/layout/sys_item.xml" value="0.1541251133272892" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.4799999863354132" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.203125" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/menu/menu_scrolling.xml" value="0.16673792218896966" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/menu/meun_toolbar.xml" value="0.35820894502642775" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/menu/mmm.xml" value="0.203125" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/menu/top_bar_menu.xml" value="0.203125" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/app/src/main/res/xml/root_preferences.xml" value="0.4517374517374517" />
+        <entry key="..\:/AndroidStudioProjects/20220325NaviApp/NaviApp/pickerviewlibrary/src/main/res/drawable/tab_sharp.xml" value="0.1385" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable-v24/ic_menu_camera.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable-v24/ic_menu_slideshow.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable-v24/video_seek_thumb.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/bg_searchview.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/edittext_border.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/fail.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.1905" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_next_plan_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_note_add_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_notification_important_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_photo_size_select_actual_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_thumb_down_alt_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_thumb_up_alt_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_time_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_baseline_unfold_less_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_download.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_exit.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/ic_search.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/input_text.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/line.xml" value="0.202" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/scan.xml" value="0.1905" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/drawable/upgrade_24.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.15234375" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_analse.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_login.xml" value="0.4799999863354132" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_main.xml" value="0.5373134175396416" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_main2.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_measure.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_my_info.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_my_report.xml" value="0.35820894502642775" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_scrolling.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/activity_setting_info.xml" value="0.2364179037174423" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/appoint_calendarview.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/collection_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/content_myinfo.xml" value="0.4799999863354132" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/content_scrolling.xml" value="0.35820894502642775" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/else_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/footer_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_activity_tab.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_dashboard2.xml" value="0.35820894502642775" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_home.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_home2.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_my_info.xml" value="0.4799999863354132" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_my_pwd.xml" value="0.5373134175396416" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_notifications.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_record.xml" value="0.278770550393138" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/fragment_setting_info.xml" value="0.2364179037174423" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/list_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/nav_header_main.xml" value="0.5373134175396416" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/notification_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/pagelist_item.xml" value="0.35820894502642775" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/progress.xml" value="0.6353111432706223" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/progress_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/scroll_guo.xml" value="0.5373134175396416" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/scroll_manage.xml" value="0.5373134175396416" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/scroll_pos.xml" value="0.4799999863354132" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/settings_activity.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/spinner_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/sys_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/toast_item.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/layout/toast_notice.xml" value="0.3980815347721823" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/menu/meun_toolbar.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/menu/top_bar_menu.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2105" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/xml/file_paths.xml" value="0.16673792218896966" />
+        <entry key="..\:/Documents/WeChat Files/wxid_4me38nru1kgs22/FileStorage/File/2022-05/20220502NaviApp/NaviApp/app/src/main/res/xml/root_preferences.xml" value="0.4799999863354132" />
+        <entry key="..\:/Program Files/Android/Sdk/platforms/android-31/data/res/layout/simple_dropdown_item_1line.xml" value="0.16673792218896966" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/layout/activity_login.xml" value="0.12907608695652173" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/layout/activity_login2.xml" value="0.1" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.12907608695652173" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/layout/fragment_notifications.xml" value="0.10099637681159421" />
+        <entry key="..\:/android/NaviApp/app/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/drawable-v24/ic_menu_camera.xml" value="0.2535" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.217578125" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout-w936dp/activity_login.xml" value="0.19023224043715847" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/activity_login.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/activity_main.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/activity_main2.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/fragment_home.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/fragment_notifications.xml" value="0.14010416666666667" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/item.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/layout/nav_header_main.xml" value="0.25226449275362317" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.26510416666666664" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17708333333333334" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/menu/menu.xml" value="0.35052083333333334" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/menu/mmm.xml" value="0.35052083333333334" />
+        <entry key="..\:/androidcode/NaviApp/app/src/main/res/menu/top_bar_menu.xml" value="0.14010416666666667" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout/activity_login.xml" value="0.11329628046173579" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout/activity_measure.xml" value="0.21248396750748183" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout/fragment_home2.xml" value="0.1" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/layout/fragment_record.xml" value="0.21248396750748183" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.11671654553227875" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.11671654553227875" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/menu/meun_toolbar.xml" value="0.11671654553227875" />
+        <entry key="..\:/one/NaviApp/app/src/main/res/menu/top_bar_menu.xml" value="0.11671654553227875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

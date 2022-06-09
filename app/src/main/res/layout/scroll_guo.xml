@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Guoatrribute"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+                            >
+
+<!--    android:background="@null"-->
+
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_marginEnd="3dp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text="*"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/showowner"
+        style="@style/textsize_content"
+        android:focusable="false"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/listpicker"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/showcode" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textsize_nomal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="摄像头名称："
+        app:layout_constraintBottom_toBottomOf="@+id/showname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/showname" />
+
+    <TextView
+        android:id="@+id/textview6"
+        style="@style/textsize_nomal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摄像头编号："
+        app:layout_constraintBottom_toBottomOf="@+id/showcode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/showcode" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/textsize_nomal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所属单位："
+        app:layout_constraintBottom_toBottomOf="@+id/showowner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/showowner" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/textsize_nomal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点位类型："
+        app:layout_constraintBottom_toBottomOf="@+id/pointype"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pointype" />
+
+    <EditText
+        android:id="@+id/showname"
+        style="@style/textsize_content"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/showcode"
+        style="@style/textsize_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spinner_margin"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textview6"
+        app:layout_constraintTop_toBottomOf="@+id/showname" />
+
+    <Spinner
+        android:id="@+id/pointype"
+        style="@style/textsize_spinner"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/spinner_margin"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/block" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备厂商："
+        style="@style/textsize_nomal"
+        app:layout_constraintBottom_toBottomOf="@+id/manufactory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/manufactory" />
+
+    <Spinner
+        android:id="@+id/manufactory"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        style="@style/textsize_spinner"
+        android:layout_margin="@dimen/spinner_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/pointype" />
+
+    <ProgressBar
+        android:id="@+id/guo_progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ipAddress"
+        style="@style/textsize_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/manufactory" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP地址："
+        style="@style/textsize_nomal"
+        app:layout_constraintBottom_toBottomOf="@+id/ipAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ipAddress" />
+
+    <TextView
+        android:id="@+id/textView20"
+        style="@style/textsize_nomal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二级单位"
+        app:layout_constraintBottom_toBottomOf="@+id/block"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/block" />
+
+    <EditText
+        android:id="@+id/block"
+        style="@style/textsize_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/showowner" />
+
+    <ImageButton
+        android:id="@+id/listpicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/showowner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/showowner"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
