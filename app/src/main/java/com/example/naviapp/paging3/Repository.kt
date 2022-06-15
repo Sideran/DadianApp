@@ -63,14 +63,14 @@ object Repository {
             emit(data)
         }.flowOn(Dispatchers.IO)
     }
-    fun modifyInfo(token: String,userInfo:UserInfoEntity):Flow<ApiResult<JsonArray>>{
+    fun modifyInfo(token: String,userInfo:UserInfoEntity):Flow<ApiResult<String>>{
         return flow {
             emit(ApiResult.Loading("加载中"))
             val data = ModifyInfoDataSource(getPointPage).modifyInfo(token,userInfo)
             emit(data)
         }.flowOn(Dispatchers.IO)
     }
-    fun modifyPwd(token: String,oldPwd:String,newPwd:String):Flow<ApiResult<JsonArray>>{
+    fun modifyPwd(token: String,oldPwd:String,newPwd:String):Flow<ApiResult<String>>{
         return flow {
             emit(ApiResult.Loading("加载中"))
             val data = ModifyInfoDataSource(getPointPage).modifyPwd(token,oldPwd,newPwd)

@@ -7,11 +7,11 @@ import com.google.gson.JsonArray
 import java.lang.Exception
 
 class ModifyInfoDataSource(private val getPointPage: GetPointPage) {
-    suspend fun modifyInfo(token: String,userinfo:UserInfoEntity): ApiResult<JsonArray> {
+    suspend fun modifyInfo(token: String,userinfo:UserInfoEntity): ApiResult<String> {
         return try {
             val response=getPointPage.modifyInfo(token,userinfo)
             if (response.get("code").asInt==200)
-                ApiResult.Success(response.get("data").asJsonArray)
+                ApiResult.Success(response.get("msg").asString)
             else {
                 ApiResult.Error(response.get("msg").asString)
             }
@@ -20,11 +20,11 @@ class ModifyInfoDataSource(private val getPointPage: GetPointPage) {
             ApiResult.Error(e.message.toString())
         }
     }
-    suspend fun modifyPwd(token: String,oldPwd:String,newPwd:String): ApiResult<JsonArray> {
+    suspend fun modifyPwd(token: String,oldPwd:String,newPwd:String): ApiResult<String> {
         return try {
             val response=getPointPage.modifyPwd(token,oldPwd,newPwd)
             if (response.get("code").asInt==200)
-                ApiResult.Success(response.get("data").asJsonArray)
+                ApiResult.Success(response.get("msg").asString)
             else {
                 ApiResult.Error(response.get("msg").asString)
             }

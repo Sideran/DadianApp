@@ -147,4 +147,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mes_size"
+        android:text="初始密码为姓名首字母缩写加手机号后四位\n密码应为5~20位，包含大小写字母及数字"
+        app:layout_constraintEnd_toStartOf="@+id/visable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

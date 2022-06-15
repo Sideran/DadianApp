@@ -189,7 +189,6 @@ public class MainActivity extends AppCompatActivity {
         //绑定侧边栏监听事件
         //binding.drawerLayout.addDrawerListener(mDrawerToggle);
 
-
         //绑定侧边栏菜单点击事件
         binding.navView0.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -197,8 +196,12 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.nav_gallery:
 //                        Toast.makeText(MainActivity.this,"该功能正在维护中",Toast.LENGTH_SHORT).show();
-                        Intent myinfo=new Intent(MainActivity.this, SettingInfoActivity.class);
-                        startActivity(myinfo);
+                            if(!app.isLogining() && !app.isLogin()){
+                                UserLogin();
+                            }else {
+                                Intent myinfo=new Intent(MainActivity.this, SettingInfoActivity.class);
+                                startActivity(myinfo);
+                            }
                         break;
                     case R.id.nav_setting:
                         Intent intent=new Intent(MainActivity.this, SettingsActivity.class);
@@ -213,6 +216,10 @@ public class MainActivity extends AppCompatActivity {
                         RetMessage ret;
                         app.setLogin(false);
                         app.setToken("");
+                        app.setNickName("UserName");
+                        app.setPhoneNum("");
+                        app.setEmail("");
+                        app.setSex("");
                         try {
                             ret = UtilHttp.post(context,app.getIPAddr()+"/logout", "");
                             if (ret!=null){
@@ -227,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
@@ -257,6 +265,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //判断是否登录
+        UserLogin();
+    }
+    private void UserLogin(){
+        //判断是否登录
         if (app.getAppLocks().tryLock()){
             try{
                 if (!app.isLogining() && !app.isLogin()) {
@@ -274,8 +286,6 @@ public class MainActivity extends AppCompatActivity {
                 app.getAppLocks().unlock(); // 即使出现异常或错误也能释放锁
             }
         }
-
-
     }
     @Override
     public void onBackPressed() {
@@ -299,7 +309,13 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
+    private void ToastDialog(Context context,String title,String msg,Integer src) {
+        AlertDialog.Builder td = new AlertDialog.Builder(context);
+        td.setTitle(title);
+        td.setMessage(msg);
+        td.setIcon(src);//R.drawable.ic_baseline_notification_important_24
+        td.setPositiveButton("确定", null);
+    }
     /** activity创建完成后 */
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {

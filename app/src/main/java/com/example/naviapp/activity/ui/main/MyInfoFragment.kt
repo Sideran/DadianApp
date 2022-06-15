@@ -1,5 +1,6 @@
 package com.example.naviapp.activity.ui.main
 
+import android.app.Activity
 import android.content.Context
 import android.os.Bundle
 import android.text.Editable
@@ -8,6 +9,7 @@ import android.view.Display
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
@@ -98,6 +100,7 @@ class MyInfoFragment : Fragment() {
 
             override fun afterTextChanged(s: Editable?) {
                 userInfo.nickName= nickname.text.toString()
+                app.nickName=nickname.text.toString()
             }
         })
         phoneNum.addTextChangedListener(object :TextWatcher{
@@ -109,6 +112,7 @@ class MyInfoFragment : Fragment() {
 
             override fun afterTextChanged(s: Editable?) {
                 userInfo.phonenumber=phoneNum.text.toString()
+                app.phoneNum=phoneNum.text.toString()
             }
         })
         email.addTextChangedListener(object :TextWatcher{
@@ -120,6 +124,7 @@ class MyInfoFragment : Fragment() {
 
             override fun afterTextChanged(s: Editable?) {
                 userInfo.email = email.text.toString()
+                app.email=email.text.toString()
             }
             })
         radioGroup.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener { group, checkedId ->
@@ -127,9 +132,11 @@ class MyInfoFragment : Fragment() {
             when(radio){
                 male->{
                     userInfo.sex="0"
+                    app.sex="0"
                 }
                 female->{
                     userInfo.sex="1"
+                    app.sex="1"
                 }
             }
         })
@@ -140,6 +147,7 @@ class MyInfoFragment : Fragment() {
 //           val context1:Context=MyInfoFragment().requireContext()
            infoProgresssBar.visibility=View.VISIBLE
            lifecycleScope.launch {
+               view?.let { it1 -> hideSoftKeyboard(requireContext(), it1) }
                viewModel.modifyInfo(app.token,userInfo).collect { result->
                    infoProgresssBar.visibility=View.INVISIBLE
                    when(result.status){
@@ -191,8 +199,8 @@ class MyInfoFragment : Fragment() {
             phoneNum.setText(app.phoneNum)
             email.setText(app.email)
             if(app.sex!=null&&!"2".equals(app.sex)){
-                if("0".equals(app.sex))male.isSelected=true
-                if("1".equals(app.sex))female.isSelected=true
+                if("0".equals(app.sex))male.setChecked(true)
+                if("1".equals(app.sex))female.setChecked(true)
             }
         }
         setlistener()
@@ -215,5 +223,12 @@ class MyInfoFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+        /**
+         * 隐藏软键盘(可用于Activity，Fragment)
+         */
+        fun hideSoftKeyboard(context: Context?, v: View) {
+            val inputMethodManager = context!!.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+            inputMethodManager.hideSoftInputFromWindow(v.windowToken, InputMethodManager.HIDE_NOT_ALWAYS)
+        }
     }
 }

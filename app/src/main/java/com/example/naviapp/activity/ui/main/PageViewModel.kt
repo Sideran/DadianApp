@@ -21,10 +21,10 @@ class PageViewModel : ViewModel() {
     fun setIndex(index: Int) {
         _index.value = index
     }
-    fun modifyInfo(token: String,userInfo:UserInfoEntity): Flow<ApiResult<JsonArray>> {
+    fun modifyInfo(token: String,userInfo:UserInfoEntity): Flow<ApiResult<String>> {
         return Repository.modifyInfo(token,userInfo)
     }
-    fun modifPwd(token: String,oldPwd:String,newPwd:String): Flow<ApiResult<JsonArray>>{
+    fun modifPwd(token: String,oldPwd:String,newPwd:String): Flow<ApiResult<String>>{
         return  Repository.modifyPwd(token,oldPwd,newPwd)
     }
 }
